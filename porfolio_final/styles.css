@@ -1,4 +1,4 @@
- /* ── CSS Variables ── */
+/* ── CSS Variables ── */
  :root {
     --bg:         hsl(230, 25%, 5%);
     --fg:         hsl(220, 20%, 90%);
@@ -392,6 +392,7 @@
       padding: .875rem 1.25rem;
       border-right: none;
       border-bottom: 1px solid hsla(230,15%,18%,.5);
+      overflow: visible;
     }
     nav::after { display: none; }
     #scroll-progress {
